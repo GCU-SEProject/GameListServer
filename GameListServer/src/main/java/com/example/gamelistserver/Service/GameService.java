@@ -18,4 +18,5 @@ public class GameService {
     public List<Game> searchGamesByTags(List<String> tagNames) {
         return gameRepository.findByAllTags(tagNames, tagNames.size());
     }
+
 }

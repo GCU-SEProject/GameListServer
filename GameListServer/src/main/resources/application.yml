@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: GameListServer
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/game_db
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  server:
+    port: 8084

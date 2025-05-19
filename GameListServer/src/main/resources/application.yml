@@ -27,3 +27,5 @@ server:
   port: 8084
   servlet:
     context-path: /game-service
+  tomcat:
+    uri-encoding: UTF-8

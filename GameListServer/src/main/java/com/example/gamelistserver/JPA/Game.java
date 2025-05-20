@@ -30,7 +30,7 @@ public class Game {
 
     private LocalDate releaseDate;
 
-    @Column(columnDefinition = "TEXT")
+    @Column(length = 500)
     private String description;
 
 
